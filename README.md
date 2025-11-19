@@ -1,6 +1,8 @@
 # Soundwave
 
-A full-featured music streaming web application inspired by Spotify, built to demonstrate modern React patterns and responsive UI design.
+A full-featured music streaming web application inspired by Spotify, built to demonstrate modern React patterns and responsive UI design.A music streaming web application inspired by Spotify, built to practice and demonstrate modern React patterns, state management, and responsive UI design.
+
+> **Note:** This project was created following a tutorial to learn frontend development best practices. The UI and features are inspired by Spotify's design.
 
 ## Features
 
