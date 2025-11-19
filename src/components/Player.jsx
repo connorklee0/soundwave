@@ -13,7 +13,7 @@ const Player = () => {
     time,
     previous,
     next,
-    seekSong
+    seekSong,
   } = useContext(PlayerContext);
 
   const formatTime = (minute, second) => {
@@ -92,14 +92,34 @@ const Player = () => {
         </div>
       </div>
       <div className="hidden lg:flex items-center gap-2 opacity-75">
-        <img src={assets.plays_icon} alt="" className="w-4" />
-        <img src={assets.mic_icon} alt="" className="w-4" />
-        <img src={assets.queue_icon} alt="" className="w-4" />
-        <img src={assets.speaker_icon} alt="" className="w-4" />
-        <img src={assets.volume_icon} alt="" className="w-4" />
-        <div className="w-20 bg-slate-50 h-1 rounded"></div>
-        <img src={assets.mini_player_icon} alt="" className="w-4" />
-        <img src={assets.zoom_icon} alt="" className="w-4" />
+        <img
+          src={assets.plays_icon}
+          alt=""
+          className="w-4 cursor-not-allowed"
+        />
+        <img src={assets.mic_icon} alt="" className="w-4 cursor-not-allowed" />
+        <img
+          src={assets.queue_icon}
+          alt=""
+          className="w-4 cursor-not-allowed"
+        />
+        <img
+          src={assets.speaker_icon}
+          alt=""
+          className="w-4 cursor-not-allowed"
+        />
+        <img
+          src={assets.volume_icon}
+          alt=""
+          className="w-4 cursor-not-allowed"
+        />
+        <div className="w-20 bg-slate-50 h-1 rounded cursor-not-allowed"></div>
+        <img
+          src={assets.mini_player_icon}
+          alt=""
+          className="w-4 cursor-not-allowed"
+        />
+        <img src={assets.zoom_icon} alt="" className="w-4 cursor-not-allowed" />
       </div>
     </div>
   );
